@@ -1,3 +1,6 @@
+/*
+*   Developed by Movla Aliyev for educational purpose
+*/
 #ifndef stack_arr
 #define stack_arr
 
@@ -12,8 +15,6 @@ stack* declare();
 int pop(stack *s);
 void push(stack *s, int data);
 void print_stack(stack *s);
-
-
 
 #endif // stack_arr
 
