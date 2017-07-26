@@ -10,6 +10,7 @@ stack * declare(){
     s->array    = NULL;
     return s;
 }
+
 int pop(stack *s){
     if(s->SIZE <=0 || s->array == NULL){
         printf("Empty list");
@@ -42,7 +43,6 @@ void push(stack* s,int data){
         s->CAPACITY *= 2;
     }
     s->array[s->SIZE++] = data;
-
 }
 
 void print_stack(stack *s){
