@@ -1,3 +1,7 @@
+/*
+*   Developed by Movla Aliyev for educational purpose
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack_arr.h"
